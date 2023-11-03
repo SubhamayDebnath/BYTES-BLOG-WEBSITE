@@ -1,0 +1,106 @@
+@charset "ISO-8859-1";
+
+*
+        {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            
+        }
+        body
+        {
+            background-color: #C2E1F2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-y: hidden;
+        }
+        .dopost
+        {
+            background-color: #fff;
+            height: auto;
+            width: auto;
+            padding: 10px 20px;
+            margin: 90px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 15px;
+        }
+        .post-head
+        {
+            text-align: center;
+            font-size: 20px;
+            margin: 0px 20px 30px 20px;
+        }
+        form
+        {
+            display: flex;
+            flex-direction: column;
+        }
+        textarea
+        {
+            padding: 10px;
+            background-color: #D4EBFF;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        ::placeholder
+        {
+            color: black;
+        }
+        #pic
+        {
+            background-color: #D4EBFF;
+            padding: 3px 6px;
+            border: 1px solid;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .dopost #new
+        {
+            background-color: #0085FF;
+            border: none;
+            width: 60px;
+            text-align: center;
+            padding: 5px;
+            text-transform: uppercase;
+            color:#fff;
+            border-radius: 5px;
+        }
+        .dopost a
+        {
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            padding: 3px 9px;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #0085FF;
+        }
+        .post-btn
+        {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 10px;
+
+        }
+        #cat
+        {
+            margin-bottom: 10px;
+            height: 30px;
+            background-color: #D4EBFF;
+            border-radius: 5px;
+
+        }
+        .result 
+{
+    height: 40px;
+    text-align: center;
+    color: red ;
+    margin: 5px 0px;
+    font-size: 15px;
+    font-weight:500;
+    padding-top: 10px;
+}
